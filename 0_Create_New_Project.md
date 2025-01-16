@@ -40,7 +40,7 @@
 
 - 至此，我们完成了固件库的下载，解压压缩包，内容如下：
 
-![内容](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/5.png)
+![内容](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/6.png)
 
 - 简单介绍包里的内容：
     - ```Libraries```用于存放各种库函数；
