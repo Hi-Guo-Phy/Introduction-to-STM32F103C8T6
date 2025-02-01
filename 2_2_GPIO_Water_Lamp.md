@@ -99,8 +99,8 @@ int main(void)
 	GPIO_InitTypeDef GPIO_InitStructure; 
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP ;	//设置GPIO的模式为推挽输出
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_2 | \
-								  GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5 | \
-								  GPIO_Pin_6 | GPIO_Pin_7; // 设置GPIO的引脚,借助于 或运算 设置了GPIOA的0~7引脚, 也可以使用GPIO_Pin_All设置所有引脚
+				      GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5 | \
+				      GPIO_Pin_6 | GPIO_Pin_7; // 设置GPIO的引脚,借助于 或运算 设置了GPIOA的0~7引脚, 也可以使用GPIO_Pin_All设置所有引脚
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;//设置GPIO的速度为50MHz
 
 	/**
