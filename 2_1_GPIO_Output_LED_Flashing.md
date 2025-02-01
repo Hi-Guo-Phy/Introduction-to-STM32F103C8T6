@@ -93,7 +93,7 @@ int main(void)
 	 * 	初始化GPIO结构体并赋值
 	 */
 	GPIO_InitTypeDef GPIO_InitStructure; 
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD ;//设置GPIO的模式为推挽输出
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP ;//设置GPIO的模式为推挽输出
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;//设置GPIO的引脚为GPIO_Pin_0
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;//设置GPIO的速度为50MHz
 
