@@ -7,3 +7,5 @@
 chapter00 [创建新工程](0_Create_New_Project.md)
 
 chapter01 [GPIO基础知识](1_GPIO_Knowledge.md)
+
+chapter02 [GPIO输出之LED闪烁](2_1_GPIO_Output_LED_Flashing.md)
