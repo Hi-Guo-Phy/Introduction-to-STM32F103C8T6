@@ -45,7 +45,7 @@
 ## 1. 实现电路
 &emsp;&emsp;电路图如下：
 
-![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_1_5.png)
+![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_1_6.png)
 
 这里，我们借助**ST-Link**实现对单片机的供电，然后将单片机的**3V3**和**G**引出，将其作为电源获取整个系统的高低电平。
 
@@ -63,7 +63,9 @@
 - 使用GPIO_Init函数初始化**GPIO**；
 - 使用对应函数控制GPIO口；
 
+***
 &emsp;&emsp;由于函数执行的速度远远大于人眼的分辨率，我们要实现闪烁，需要使用延时函数，这里延时函数存放于[System](System)文件夹中，命名为**Delay.c**和**Delay.h**，将二者复制到自己的**System**文件夹中即可。
+***
 
 &emsp;&emsp;整体逻辑如下：
 - 使用RCC开启GPIO的时钟，我们这里使用**A0**端口；
@@ -91,7 +93,7 @@ int main(void)
 	 * 	初始化GPIO结构体并赋值
 	 */
 	GPIO_InitTypeDef GPIO_InitStructure; 
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD ;//设置GPIO的模式为推挽输出
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP ;//设置GPIO的模式为推挽输出
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;//设置GPIO的引脚为GPIO_Pin_0
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;//设置GPIO的速度为50MHz
 
@@ -105,6 +107,7 @@ int main(void)
 	 * 点亮LED
 	 * 延时
 	 * 熄灭LED
+	 * 延时
 	 * 之所以需要延时，是因为函数执行的速度远远大于人眼的分辨率，如果不延时，LED会闪烁的非常快，人眼无法分辨
 	 */
 	while(1)
