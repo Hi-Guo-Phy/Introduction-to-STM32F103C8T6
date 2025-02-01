@@ -45,7 +45,7 @@
 ## 1. 实现电路
 &emsp;&emsp;电路图如下：
 
-![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_1_5.png)
+![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_1_6.png)
 
 这里，我们借助**ST-Link**实现对单片机的供电，然后将单片机的**3V3**和**G**引出，将其作为电源获取整个系统的高低电平。
 
