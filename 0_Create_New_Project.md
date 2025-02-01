@@ -87,7 +87,7 @@
 - 打开项目文件夹，在文件夹中添加下面三个小文件夹：
     - ```Start```文件夹，此文件夹用于存放上面我们介绍到的：**内核支持文件**、**外设支持文件与系统时钟配置**、**启动文件**，将这三个文件夹中的文件全部复制进去即可，完成之后如下：
     - ![文件1](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/15.png)
-    - ```Libraries```文件夹，此文件夹用于存放外设驱动函数，包括源文件和头文件，完成之后如下：
+    - ```Library```文件夹，此文件夹用于存放外设驱动函数，包括源文件和头文件，完成之后如下：
     - ![文件2](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/16.png)
     - ```User```文件夹，此文件夹用于存放我们自己编写的函数，这里为了使用官方库函数，我们需要从模板文件夹（```\STM32F10x_StdPeriph_Lib_V3.5.0\Project\STM32F10x_StdPeriph_Template```）中添加三个文件，完成之后如下：
     - ![文件3](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/17.png)
