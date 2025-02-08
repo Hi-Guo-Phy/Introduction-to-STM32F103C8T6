@@ -50,6 +50,7 @@
 
 &emsp;&emsp;第二部分是电压比较器所在电路，**用于生成数字输出**：
 ![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_8_4.png)
+
 电压比较器原理很简单，不再详细叙述。
 
 ***
