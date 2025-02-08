@@ -10,4 +10,6 @@ chapter01 [GPIO基础知识](1_GPIO_Knowledge.md)
 
 chapter02 [GPIO输出之LED闪烁](2_1_GPIO_Output_LED_Flashing.md)
 
-chapter02 [GPIO输出之LED流水灯](2_2_GPIO_LED_Water_Lamp.md)
+chapter02 [GPIO输出之LED流水灯](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/2_2_GPIO_Water_Lamp.md)
+
+chapter03 [GPIO输入之控制元件介绍](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/3_1_GPIO_input.md)
