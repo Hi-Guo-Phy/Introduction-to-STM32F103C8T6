@@ -29,7 +29,7 @@
 &emsp;&emsp;光敏电阻模块电路如下：
 ![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_8_2.png)
 
-我们需要知道的是，传感器模块相对于我们的*stm32*核心板而言，**是一个外部器件**，我们使用**GPIO**读取到的输入，是这个模块的输出。
+***我们需要知道的是，传感器模块相对于我们的 *stm32* 核心板而言，是一个外部器件，我们使用 *GPIO* 读取到的输入，是这个模块的输出。***
 
 &emsp;&emsp;上图中最右侧，是这个模块的四个排针，抑或者四个接口：
 - **VCC**：电源正极；
@@ -46,12 +46,17 @@
 - **N1**阻值极大，电路相当于断路，**AO**输出电压**VCC**；
 - **N1**阻值极小，电路相当于短路，**AO**输出电压**GND**；
 
+***
+
 &emsp;&emsp;第二部分是电压比较器所在电路，**用于生成数字输出**：
 ![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_8_4.png)
 电压比较器原理很简单，不再详细叙述。
 
+***
+
 &emsp;&emsp;第三部分是外围电路，用于放置**LED**指示灯以及其余部分：
 ![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_8_5.png)
+
 这里的两个**LED**用于通电指示，其余接口不必详述。
 
 
