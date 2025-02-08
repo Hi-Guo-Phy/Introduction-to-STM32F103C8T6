@@ -1,4 +1,4 @@
-# 2_2_GPIO_Output_Water_Lamp
+# 3_1_GPIO_input
 
 ***
 在本篇文章中，介绍 *GPIOI* 输入中的两种经典控制方式——**按键控制和传感器控制**。
