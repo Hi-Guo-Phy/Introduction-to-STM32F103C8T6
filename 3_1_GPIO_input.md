@@ -60,5 +60,19 @@
 
 这里的两个**LED**用于通电指示，其余接口不必详述。
 
+# 四、 硬件连接电路
+## 1. 按键连接电路
+&emsp;&emsp;通常我们选择如下电路将弹簧连接到电路中：
+![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_8_6.png)
+
+当没有外置上拉电阻时，我们需要将输入模式配置为上拉输入，确保无输入时读取到的值是确定值；有外置上拉电阻时，我们可以配置为上拉输入或者浮空输入。
+
+&emsp;&emsp;上面的两种解法，按键按下获得输入的低电平，按键松开获得输入的高电平。
+
+## 2. 传感器模块连接电路
+&emsp;&emsp;模块的电路连接比较简单，如下：
+![文件](https://github.com/Hi-Guo-Phy/Introduction-to-STM32F103C8T6/blob/main/Images/2_8_7.png)
+
+
 
 
